@@ -6,6 +6,7 @@ import Member from '../screen/member'
 import FamilyDetails from '../screen/familydetail'
 import BPdetails from '../screen/bpdetails'
 import BPhistory from '../screen/bppasthistory'
+import MemberList from '../screen/memberlist';
 const Main =createNativeStackNavigator()
 const  Mainstack=()=>{
 
@@ -19,6 +20,8 @@ const  Mainstack=()=>{
                <Main.Screen name='Familydetails' component={FamilyDetails}/>
                <Main.Screen name='Bpdetails' component={BPdetails}/>
                <Main.Screen name='BPhistory' component={BPhistory}/>
+               <Main.Screen name='MList' component={MemberList}/>
+
 
         </Main.Navigator>
     )

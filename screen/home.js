@@ -7,7 +7,7 @@ const  Home=({route,navigation})=>{
 
     return(
         <View >
-            <TextInput placeholder='email'></TextInput>
+            <TextInput label='email' mode ='outlined'placeholder='email'></TextInput>
             <Button mode='contained'  style={{width:100,height:40,borderRadius:5}}onPress={()=>navigation.navigate('Enter')}>Next</Button>
         </View>
     )
